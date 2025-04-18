@@ -27,7 +27,7 @@ export default function Form() {
         <Input label="CEP" type="text" name="cep" />
         <Input label="Endereço" type="text" name="address" />
         <Input label="Cidade" type="text" name="city" />
-        <Input label="Termos" type="checkbox" name="state">
+        <Input labelClassName="text-sm font-light text-slate-500 mb-1 inline" type="checkbox" name="state">
           Aceito os{" "}
           <span className="underline hover:text-slate-900 cursor-pointer">
             termos e condições
